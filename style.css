@@ -1,0 +1,161 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#050505;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+border-bottom:1px solid #d4af37;
+background:#000;
+position:sticky;
+top:0;
+z-index:10;
+}
+
+.logo{
+color:#d4af37;
+font-size:28px;
+font-weight:bold;
+}
+
+.tg-btn,.main-btn,.promo-btn,.card a,.floating{
+background:#d4af37;
+color:#000;
+padding:14px 26px;
+border-radius:12px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+display:inline-block;
+}
+
+.tg-btn:hover,.main-btn:hover,.promo-btn:hover,.card a:hover,.floating:hover{
+transform:scale(1.05);
+}
+
+.hero{
+padding:120px 20px;
+text-align:center;
+background:linear-gradient(135deg,#000,#1c1400);
+}
+
+.hero h1{
+font-size:52px;
+color:#d4af37;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+color:#ccc;
+font-size:20px;
+margin-bottom:30px;
+}
+
+.catalog{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:24px;
+padding:60px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.card{
+background:#111;
+padding:30px;
+border-radius:20px;
+border:1px solid #2d2407;
+box-shadow:0 0 30px rgba(212,175,55,0.08);
+}
+
+.card h2{
+color:#d4af37;
+margin-bottom:16px;
+}
+
+.card p{
+color:#bbb;
+line-height:1.6;
+margin-bottom:22px;
+}
+
+.promo{
+padding:80px 20px;
+}
+
+.promo-box{
+max-width:1000px;
+margin:auto;
+background:linear-gradient(135deg,#111,#1d1604);
+border:1px solid #d4af37;
+border-radius:24px;
+padding:50px;
+text-align:center;
+box-shadow:0 0 40px rgba(212,175,55,0.15);
+}
+
+.promo-box h2{
+color:#d4af37;
+font-size:36px;
+margin-bottom:20px;
+}
+
+.promo-box p{
+color:#ccc;
+max-width:700px;
+margin:auto;
+line-height:1.7;
+margin-bottom:30px;
+}
+
+.steps{
+padding:80px 20px;
+text-align:center;
+}
+
+.steps h2{
+font-size:40px;
+color:#d4af37;
+margin-bottom:40px;
+}
+
+.steps-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+max-width:1000px;
+margin:auto;
+}
+
+.steps-grid div{
+background:#111;
+padding:30px;
+border-radius:18px;
+border:1px solid #2d2407;
+}
+
+footer{
+padding:30px;
+text-align:center;
+color:#777;
+}
+
+.floating{
+position:fixed;
+right:20px;
+bottom:20px;
+box-shadow:0 0 25px rgba(212,175,55,0.5);
+}
